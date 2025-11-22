@@ -1,0 +1,122 @@
+.category__alert--success {
+    padding: 10px 30px;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.category__alert--danger {
+    padding: 10px 0;
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.category__alert--danger ul {
+    margin: 0;
+}
+
+.category-create__item{
+    max-width: 1230px;
+    margin: 0px auto;
+    width: 70%;
+    padding: 60px 15px;
+}
+
+.create-form{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    text-align: center;
+}
+
+.create-form__input{
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.create-form__submit{
+    width: 20%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.category-table{
+    width: 70%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.category-table__inner{
+    width: 100%;
+}
+
+.category-table__row{
+    border-bottom: 1px solid #ddd;
+
+}
+
+.category-table__header{
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-table__ttl{
+    padding: 10px;
+}
+
+.category-table__item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    align-items: center;
+    height: 30px;
+}
+
+.update-form{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 40px;
+    align-items: center;
+}
+
+.update-form__item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.update-form__input{
+    height: 100%;
+    width: 80%;
+    border: none;
+    padding: 10px;
+}
+
+.update-form__submit{
+    background-color: #0000ff;
+    border: none;
+    color: #fff;
+        padding: 5px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 3px;
+
+}
+
+.delete-form__submit{
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+        padding: 5px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-right: 20px;
+}
+
